@@ -1,0 +1,51 @@
+.background-img {
+  background-image: url("https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d-1540x866.jpg");
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .background-img {
+    height: auto !important;
+    padding-bottom: 50px;
+  }
+}
+.custom-btn:hover {
+  background-color: #a0020a;
+}
+.large-font {
+  font-size: 3.6rem;
+  color: antiquewhite;
+}
+.red-bg {
+  background-color: #e50914;
+}
+.red-color {
+  color: #e50914;
+}
+.card-container {
+  scrollbar-width: none;
+  height: 260px;
+  border-radius: 12px;
+}
+.trend-img img {
+  height: 98%;
+  width: 160px;
+  border-radius: 12px;
+}
+.trend-img img:hover {
+  scale: 1.1;
+}
+.card-custom {
+  height: 290px;
+}
+.custom-card-design {
+  background-image: linear-gradient(rgb(24, 47, 61), rgb(46, 20, 23));
+}
+.card-body i {
+  font-size: 2rem;
+  color: #ec101b;
+}
+.icon {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
